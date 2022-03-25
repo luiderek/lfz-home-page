@@ -8,7 +8,7 @@
 }
 
 .col-3 {
-  width: calc(100% / 3);
+
 }
 
 .link-align {
@@ -16,12 +16,22 @@
   justify-content: space-evenly;
 }
 
+.header {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  border: 2px red solid;
+  margin: 0 5vw;
+}
+
 .header h2 {
   margin: 0;
   color: orange;
+  text-align: center;
 }
 
 .header a {
   color: black;
   text-decoration: none;
+  margin: 0 1rem;
 }
