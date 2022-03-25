@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.col-25 {
+  width: 25%s;
+}
+
 .col-100 {
   width: 100%;
 }
@@ -93,4 +97,10 @@ img {
 
 .center {
   text-align: center;
+}
+
+.info-tiles {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
 }
