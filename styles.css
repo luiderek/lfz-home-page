@@ -100,7 +100,27 @@ img {
 }
 
 .info-tiles {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 90vw;
+  margin: 0 5vw;
+}
+
+.info-tiles a {
+  text-decoration: none;
+}
+
+.info-tiles img {
+  width: 95%;
+}
+
+.tile {
+  border: 1px solid lightgray;
+  margin: 0 1vw;
+  padding: 0 1vw;
+}
+
+.signup-button {
+  justify-content: center;
+  margin: 1rem;
 }
