@@ -39,7 +39,7 @@ img {
 
 .header h2 {
   margin: 0;
-  color: orange;
+  color: #e97001;
   text-align: center;
 }
 
@@ -60,7 +60,8 @@ img {
   background-color: #e97001;
   color: white;
   border-radius: 4%;
-  padding: 0.4rem;
+  padding: 0.47rem;
+  margin-right: 0.07rem;
 }
 
 .search-button {
@@ -77,16 +78,20 @@ img {
 .hero-img {
   background-image: url("./images/hero-image.webp");
   background-size: cover;
-  padding: 5em;
+  padding: 5em 10em;
 }
 
 .hero-img > * {
   color: white;
 }
 
+.hero-img h3 {
+  font-size: 92%;
+}
+
 .hero-img p {
   font-size: 120%;
-  margin-right: 51vw;
+  margin-right: 40%;
 }
 
 .round-butt {
