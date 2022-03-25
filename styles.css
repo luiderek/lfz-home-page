@@ -51,7 +51,7 @@ img {
 }
 
 .orange-border {
-  border: 2px solid orange;
+  border: 2px solid #f3d58e;
   border-radius: 3px;
 }
 
@@ -108,19 +108,29 @@ img {
 
 .info-tiles a {
   text-decoration: none;
+  font-weight: 600;
+  color: #177992;
+  font-size: 80%;
+}
+
+.info-tiles p {
+  font-size: 70%;
 }
 
 .info-tiles img {
   width: 95%;
+  height: 120px;
 }
 
 .tile {
   border: 1px solid lightgray;
   margin: 0 1vw;
   padding: 0 1vw;
+  padding-bottom: 1.2rem;
 }
 
 .signup-button {
   justify-content: center;
   margin: 1rem;
+  margin-top: 1.5rem;
 }
