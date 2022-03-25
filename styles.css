@@ -7,8 +7,12 @@
   width: 100%;
 }
 
-.col-3 {
+.col-100 {
+  width: 100%;
+}
 
+img {
+  width: 100%;
 }
 
 .link-align {
@@ -60,4 +64,13 @@
   border: hidden;
   width: 35vw;
   padding: 0.5rem;
+}
+
+.hero-img {
+  background-image: url("./images/hero-image.webp");
+  background-size: cover;
+}
+
+.hero-img > * {
+  color: white;
 }
