@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .container {
   width: 100%;
 }
@@ -49,7 +53,7 @@ img {
 
 .orange-button {
   border: hidden;
-  background-color: orange;
+  background-color: #e97001;
   color: white;
   border-radius: 4%;
   padding: 0.4rem;
@@ -69,8 +73,24 @@ img {
 .hero-img {
   background-image: url("./images/hero-image.webp");
   background-size: cover;
+  padding: 5em;
 }
 
 .hero-img > * {
   color: white;
+}
+
+.hero-img p {
+  font-size: 120%;
+  margin-right: 51vw;
+}
+
+.round-butt {
+  border-radius: 15px;
+  font-size: 110%;
+  padding: 0.4rem 0.8rem;
+}
+
+.center {
+  text-align: center;
 }
