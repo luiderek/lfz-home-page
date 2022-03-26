@@ -1,5 +1,9 @@
 * {
-  font-family: sans-serif;
+  font-family: Catamaran, sans-serif;
+}
+
+h1 {
+  font-weight: 800;
 }
 
 .container {
@@ -22,6 +26,16 @@
 
 img {
   width: 100%;
+}
+
+.small {
+  font-size: 9px;
+  padding-left: 0.2rem;
+}
+
+.side-border {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .link-align {
