@@ -36,6 +36,7 @@ img {
 .side-border {
   border-left: 1px solid black;
   border-right: 1px solid black;
+  padding: 0;
 }
 
 .link-align {
@@ -44,12 +45,11 @@ img {
 }
 
 .header {
-  width: 90vw;
+  padding: 0;
   display: flex;
   justify-content: space-between;
-
-  /* border: 2px red solid; */
   margin: 0 5vw;
+  width: auto;
 }
 
 .header h2 {
@@ -83,7 +83,7 @@ img {
 
 .search-button {
   justify-content: center;
-  margin: 1rem;
+  margin: 0.3rem 0 0.9rem;
 }
 
 .search-button input {
@@ -115,7 +115,7 @@ img {
 .round-butt {
   border-radius: 15px;
   font-size: 110%;
-  padding: 0.4rem 0.8rem;
+  padding: 0.1rem 0.6rem;
 }
 
 .center {
@@ -125,8 +125,8 @@ img {
 .info-tiles {
   /* border: 2px solid red; */
   text-align: center;
-  width: 90vw;
-  margin: 0 5vw;
+  width: 92%;
+  margin: auto;
 }
 
 .info-tiles a {
