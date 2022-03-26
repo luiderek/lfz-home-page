@@ -3,7 +3,8 @@
 }
 
 .container {
-  width: 100%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .row {
@@ -12,7 +13,7 @@
 }
 
 .col-25 {
-  width: 25%s;
+  width: 25%;
 }
 
 .col-100 {
@@ -46,8 +47,10 @@ img {
 .header a {
   color: black;
   text-decoration: none;
-  margin: auto 1rem;
+  margin: auto 0;
+  padding: 0 0.5rem;
   font-weight: bold;
+  font-size: 90%;
 }
 
 .orange-border {
@@ -78,6 +81,7 @@ img {
 .hero-img {
   background-image: url("./images/hero-image.webp");
   background-size: cover;
+  background-position: center;
   padding: 5em 10em;
 }
 
@@ -124,7 +128,6 @@ img {
 
 .info-tiles img {
   width: 95%;
-  height: 120px;
 }
 
 .tile {
